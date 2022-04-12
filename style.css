@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+/*This sets the format for the body? */
+body {
+  margin: 0 2em 0  2em;
+  padding: 0;
+  background-color: #001022;
+  text-align: center;
+  position: relative;
+  min-height: 100%;
+}
+/*sets the alignment for the canvas? */
+canvas {
+  display: inline;
+}
+/* sets the format for the first heading? */
+h1{
+  font-family: "Roboto", "Lato", "Lucida Grande", "Lucida Sans Unicode"; 
+  text-align:center; 
+  padding: 1%; ; 
+  background:#6ead8d;
+  color: #fff; 
+  margin-left: 2em ;
+  margin-right: 2em ;
+  border-radius: 10px;
+}
+/*sets the format for the text? */
+p {
+    text-align:center; 
+    font-family:"nunito", "sans serif";
+}
+/*sets the format for the things in the list? */
+a {
+  text-align: left; 
+  color: #571CAE;
+  font-family:"nunito", "sans serif";
+  padding: 5px;
+}
+/* sets the format for the list? */
+li{
+   display: inline;
+   border: 2px solid #571CAE;
+   background: white; 
+   margin: 6px; 
+   padding: 6px; 
+   border-radius: 5px;
+}
+#firstHeader {
+  float: left;
+}
+#secondHeader {
+  float: none;
+}
+#thirdHeader {
+  float: left;
+}
+#fourthHeader {
+  float: none;
+}
+#fifthHeader {
+  float: left;
+}
+#sixthHeader {
+  float: none;
+}
+#seventhHeader {
+  float: left;
+  color: #FFFFFF;
+  background-color: blue;
+  padding: 5px;
+}
+#divider1 {
+  padding: 0px 0px 0px 48px;
+}
+ul{
+  display: inline-block;
+}
+/* this is what happens when you hover over one of the objects in the list. */
+li:hover{
+  background: #E6D9F9; 
+}
+/* Using a dot allows you to create a CSS class. You can use this in multiple locations in your HTML code. */ 
+#sketch-holder {
+  position: absolute;
+/*   margin-left: -100px; */
+  width: 100%;
+}
