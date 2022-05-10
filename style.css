@@ -89,3 +89,16 @@ li:hover{
   width: 400px;
   height: 400px;
 }
+.footer {
+  /* The position can set where something is located on your page. We want the footer always at the very bottom. We set the position to be absolute. */ 
+  position: absolute;
+  color: #fff; 
+  /* Right, bottom, and left set the location of the footer bar */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  /* This makes it look a bar, not just the text stuck at the bottom. */ 
+  background-color: #571CAE;
+  text-align: center;
+}
